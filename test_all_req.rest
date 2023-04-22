@@ -1,0 +1,47 @@
+GET http://localhost:3000/api/persons
+###
+GET http://localhost:3000/info
+###
+GET http://localhost:3000/api/persons/2
+###
+Delete http://localhost:3000/api/persons/3
+###
+
+POST http://localhost:3000/api/persons 
+Content-Type: application/json
+
+{
+   "name": "B", 
+   "number": "22"
+}
+###
+POST http://localhost:3000/api/persons 
+Content-Type: application/json
+
+{
+   "name": "Arto Hellas",
+   "number": "24"
+}
+###
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+   "number": "2"
+}
+###
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+   "name": "C"
+}
+###
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+   "name": "John",
+   "number": "50"
+}
+
